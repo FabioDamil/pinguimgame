@@ -1,7 +1,4 @@
 # pinguimgame
 
-Ficheiros:
-
-character.png
-exercicio5.html
-screen.png
+Objetivo:
+Apanha os três objetos espalhados no mapa e desbloqueia o portal que conduz até à Pinguim!
