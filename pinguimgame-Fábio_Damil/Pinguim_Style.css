@@ -1,0 +1,159 @@
+#inicio {
+position: absolute;
+top: 0px;
+left: 700px;
+color: #4CAF50;	
+}
+#map {
+	top: 0px;
+	left: 0px;
+	height: 570px;
+	width: 580px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: green;
+	display: block;
+} 
+#character {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 32px;
+    height: 32px;
+    background: url('character.png') no-repeat;
+	display: block;
+}
+#tesouro {
+position: absolute;
+top: 250px;	
+left: 220px;
+width: 29px;
+height: 29px;
+display: background = "url('treasure.gif')"; 
+display: block;
+}
+#espada {
+position: absolute;
+top: 220px;	
+left: 390px;
+width: 29px;
+height: 29px;
+display: background = "url('sword.gif')"; 
+display: block;
+}
+#escudo {
+position: absolute;
+top: 40px;	
+left: 400px;
+width: 29px;
+height: 29px;
+display: background = "url('escudo.gif')"; 
+display: block;
+}
+#bandido {
+position: absolute;
+top: 40px;	
+left: 400px;
+width: 100px;
+height: 100px;
+display: background = "url('bandido.gif')"; 
+display: block;
+}
+#portal {
+position: absolute;
+top: 290px;	
+left: 280px;
+width: 22px;
+height: 52px;
+display: background = "url('portal.gif')"; 
+display: none;
+}
+#princesa {
+position: absolute;
+top: 230px;	
+left: 150px;
+width: 29px;
+height: 40px;
+display: background = "url('pingu.gif')"; 
+display: none;
+}
+#princesa2 {
+position: absolute;
+top: 260px;	
+left: 270px;
+width: 170px;
+height: 170px;
+display: background = "url('pingu2.gif')"; 
+display: none;
+}
+#tesou {
+position: absolute;
+top: 100px;
+left: 700px;
+}
+#espad {
+position: absolute;
+top: 150px;
+left: 700px;
+}
+#mensagem {
+position: absolute;
+top: 200px;
+left: 770px;
+}
+#botoes {
+position: absolute;
+top: 400px;
+left: 750px;
+}
+#tabela {
+position: absolute;
+top: 220px;
+left: 770px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+#espada2{
+width: 29px;
+height: 29px; 
+display: none;
+}
+#tesouro2{
+width: 29px;
+height: 29px; 
+display: none;
+}
+#escudo2{
+width: 29px;
+height: 29px; 
+display: none;
+}
+#character.left-right { background-position: 0px -32px; }
+#character.left-stand { background-position: -32px -32px; }
+#character.left-left { background-position: -64px -32px; }
+
+#character.right-right { background-position: -64px -64px; }
+#character.right-stand { background-position: -32px -64px; }
+#character.right-left { background-position: -0px -64px; }
+
+#character.back-right { background-position: 0px -96px; }
+#character.back-stand { background-position: -32px -96px; }
+#character.back-left { background-position: -64px -96px; }
+
+#character.front-right { background-position: 0px 0px; }
+#character.front-stand { background-position: -32px 0px; }
+#character.front-left { background-position: -64px 0px; } 

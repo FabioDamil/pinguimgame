@@ -1,0 +1,50 @@
+<html>
+<head>
+<script language="javascript" src="Pinguim_Script.js"></script>
+<link rel="stylesheet" type="text/css" href="Pinguim_Style.css">
+<title>Jogo do Pinguim</title>
+
+</head>
+
+<body onkeydown="Key(event)" >
+
+<img id="map" src="screen.png" />
+<img id="tesouro" src="treasure.gif" onload="alterarPosicao()"/>
+<img id="espada" src="sword.gif" onload="alterarPosicao()"/>
+<img id="portal" src="portal.gif" />
+<img id="escudo" src="escudo.gif" onload="alterarPosicao()"/>
+<img id="bandido" src="bandido.gif" onload="alterarBandido()"/>
+<img id="princesa" src="pingu.gif" />
+<img id="princesa2" src="pingu2.gif" />
+<div id="character"></div> 
+
+<div id="botoes">
+<button onclick="moveE()">Esquerda</button>
+<button onclick="moveD()">Direita</button>
+<button onclick="moveC()">Cima</button> 
+<button onclick="moveB()">Baixo</button> 
+<button onclick="stop()">Parar</button>
+</div>
+<!-- <div id="pos"></div> -->
+<div id="inicio">
+<h1>Bem Vindo ao Jogo do Pinguim</h1>
+</div>
+<div id="tabela">
+<table>
+  <tr>
+    <th>Tesouro</th>
+    <th>Espada</th>
+    <th>Escudo</th>
+  </tr>
+  <tr>
+    <td><img id="tesouro2" src="treasure.gif" /></td>
+    <td><img id="espada2" src="sword.gif" /></td>
+    <td><img id="escudo2" src="escudo.gif" /></td>
+  </tr>
+  
+</table>
+</div>
+
+<div id="mensagem"></div>
+</body>
+</html>
